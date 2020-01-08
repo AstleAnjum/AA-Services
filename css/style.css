@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css?family=Damion');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC');
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+overflow-x: hidden;
+overflow-y: scroll;
+}
+
+
+header {
+	background-image: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 100%;
+    
+}
+
+.height-row {
+    height: 87vh;
+}
+
+header h1{
+    font-family: 'Damion', cursive;
+    text-align: center;
+    color: azure;
+    font-size: 70px;
+    padding-top:70%;
+}
+header h6{
+    font-family: 'Alegreya Sans SC', sans-serif; 
+    color: azure;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.head-btn {
+    text-align: center;
+}
+
+.btn-about {
+    color: #008CBA;
+     border: 2px solid #008CBA;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px 20px;
+    margin-right: 1em;
+   
+}
+
+.btn-about:hover {
+    background-color: #008CBA;
+    color: white;
+   
+}
+
+.btn-tour {
+    border: 2px solid firebrick;
+     text-decoration: none;
+    font-size: 24px;
+    padding: 10px 20px;
+    color: firebrick;
+        
+}
+
+.btn-tour:hover {
+    background-color: firebrick;
+    color: white;
+}
+.header-overlay
+{
+    background-color: rgba(31, 31, 31, 0.25);
+}
+
+.car-icons {
+    font-size: 50px;
+    color: black;
+}
+
+/*======About Us====*/
+.choose-us-wraper {
+    padding-top: 40px;
+}
+
+.rolls-image {
+    min-width: 200px;
+    position: relative;
+    margin-top: 8px;
+}
+
+.choose-us-title {
+    padding-bottom: 50px;
+
+}
+
+.choose-us-title h2 {
+    
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    position: relative;
+    
+}
+.choose-us-title h2:after {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    width: 70px;
+    height: 1px;
+    background-color: #129CF3;
+    
+    
+}
+
+.choose-us-title p {
+    margin-top: 40px;
+    font-size: 19px;
+    line-height: 24px;
+}
+
+
+.choose-us-item {
+    
+    position: relative;
+    padding-bottom: 4px;
+    padding-left: 80px;
+    
+}
+
+.choose-us-item div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.choose-us-item div i {
+    font-size: 55px;
+    color: #129CF3;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.choose-us-item h3 {
+    color: #343434;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+    
+}
+.choose-us-item p {
+    color: #727272;
+    font-size: 15px;
+}
+
+/*======generic css=====*/
+.section-title {
+    padding-top: 90px;
+    padding-bottom: 50px;    
+    
+}
+.section-title h2 {
+    position : relative;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+}
+
+.section-title h2:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 60px;
+    height: 1px;
+    background-color: #129CF3;
+    margin-left: -30px;
+    
+}
+
+.section-title p {
+    
+    color: #333;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300px;
+    text-align: center;
+    margin-top: 45px;
+    
+    
+}
+
+
+/*=======Jumbotron====*/
+.jumbotron {
+    
+    margin-top: 5rem;
+    padding: 3rem;
+    border-radius:0;
+}
+
+
+/*==========social=========*/
+.social a {
+ font-size: 4.5em;
+ padding: 3rem;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-google-plus-g {
+    color: #dd4b39;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+
+.social
+{
+    margin-top: 7rem;
+    padding: 20px;
+    background-image: url(../img/social%20background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+     
+}
+
+.social-overlay {
+    background-color: rgba(31, 31, 31, 0.25);
+}
+
+.social h2 {
+ 
+    color: azure;
+}
+
+
+.form-resp {
+    margin-left: 40px;
+}
+
+/*===========owl carousel==============*/
+#demos {
+    padding: 120px;
+}
+
+.owl-carousel .owl-stage {
+  display: flex;
+  align-items: center;
+}
+
+.owl-carousel img {
+    height: auto;
+    width: auto;
+}
+
+.owl-ims {
+    margin-left: 15%;
+}
+
+/*=========Reserve tab======*/
+.reserve-now {
+    background-color: #1a1a1a;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+    
+}
+.reserve-now p {
+    color: #dfdfdf;
+    font-size: 18px;
+    font-weight: 300;
+    
+}
+
+.form-group .form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #555;
+    background-color: transparent;
+    border: 1px solid #aeaeae;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    opacity: .8;
+    outline: 0px !important;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    
+}
+
+
+.dropdown select{
+   display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 21px;
+    background-color: transparent;
+    border: 1px solid #aeaeae;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    outline: 0px !important;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+#bt3,
+#bt3:active,
+#bt3:focus,
+#bt3:visited 
+{
+    margin-top: 20px;
+    background-color:#129CF3;
+    border:1px solid #129CF3;
+    color:#fff;
+    border-radius:3px;
+    padding:15px 35px;
+    text-transform:uppercase;
+    transition:all 1s;
+    -moz-transition:all 1s;
+    -o-transition:all 1s;
+    -webkit-transition:all 1s;
+    
+    
+}
+#bt3:hover {
+    background-color:#1274B1;
+    border-color:#316B90;
+}
+
+/*=======footer=======*/
+footer {
+        background-color: #3f3f3f;
+    color: #dfdfdf;
+    padding-top: 2rem;
+    margin-top: 2rem;
+
+}
+.titlea h5 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 2em;
+}
+
+hr.light {
+    border-top: 1px solid #dfdfdf;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: .1rem;
+}
+    
+footer a {
+    color: #dfdfdf;
+}
+
+.light-100 {
+border-top: 1px solid #dfdfdf;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: .1rem;
+}
+
+
+
+
+/*=============responsive===========*/
+
+/* small devices */
+@media only screen and (max-width: 767px) {
+    .social a{
+        padding: .7rem;
+        font-size: 2em;
+    }
+    
+
+    
+}
+
+/* small devices and tablets */
+@media only screen and (max-width: 768px) {
+
+    /*===========owl carousel==============*/
+#demos {
+    padding: 20px;
+}
+
+.owl-carousel .owl-stage {
+
+}
+
+.owl-carousel img {
+    height: auto;
+    width: auto;
+}
+    .owl-ims{
+        display: inline-block;
+        align-content: center;
+        margin-left: 0;
+        padding-left: 0;
+        width: 100%;
+    }
+    
+    .social a{
+        padding: 1.2rem;
+        font-size: 2.5em;
+    }
+    
+        header h1{
+    text-align: center;
+    color: azure;
+    font-size: 40px;
+    padding-top:0;
+}
+header h6{
+    padding-top: 0;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: .5rem;
+}
+
+.head-btn {
+    text-align: center;
+}
+
+.btn-about {
+    color: #008CBA;
+     border: 1px solid #008CBA;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-right: .5em;
+   
+
+}
+
+.btn-tour {
+    border: 1px solid firebrick;
+     text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    color: firebrick;
+        
+}
+    
+    .img-responsive {
+    
+        width: 100%;
+    }
+    
+    .form-resp {
+        padding-top: 2em;
+        display: inline-block;
+        margin-left: 0px; !important;
+    }
+    
+    hr.light {
+        width: 100%;
+    }
+
+    .car-icons {
+        font-size: 25px;
+    }
+}
+
+/* medium devices, Desktop */
+@media only screen and (min-width: 992px) {
+    .social a{
+        padding: 2rem;
+        font-size: 4em;
+    }
+}
+
+/* large devices & wide screens */
+@media only screen and (min-width: 1200px) {
+    .social a{
+        padding: 2rem;
+        font-size: 4em;
+    }
+}
